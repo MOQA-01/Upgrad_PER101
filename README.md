@@ -1,4 +1,4 @@
-# 🧠 Predicting Employee Retention
+# Predicting Employee Retention
 ### Logistic Regression Analysis — Assignment `LogR/01` · Group `PER101`
 
 > **Objective:** Develop a Logistic Regression model to predict binary outcomes (**Stayed / Left**) based on employee data and help HR proactively identify employees likely to stay, while understanding the factors driving their loyalty.
@@ -270,7 +270,7 @@ cd PER101
 pip install pandas numpy matplotlib seaborn scikit-learn statsmodels
 
 # Launch Jupyter
-jupyter notebook Predicting_Employee_Retention_FIXED.ipynb
+jupyter notebook Predicting_Employee_Retention_Mohammed Qalandar Shah Quazi_Ramyata Rohan Mendhe_Teja P_Pratiksha Hanumant Wagaj.ipynb
 ```
 
 > **Note:** The dataset file `Employee_data.csv` must be in the same directory as the notebook.
