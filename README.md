@@ -5,7 +5,7 @@
 
 ---
 
-## 👥 Team
+## Team
 
 | Name | Role |
 |------|------|
@@ -16,7 +16,7 @@
 
 ---
 
-## 📋 Project Overview
+## Project Overview
 
 | Field | Details |
 |-------|---------|
@@ -30,7 +30,7 @@ A mid-sized technology company wants to proactively identify employees likely to
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 PER101/
@@ -42,7 +42,7 @@ PER101/
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 ### Overview
 
@@ -86,7 +86,7 @@ PER101/
 
 ---
 
-## 🔍 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 ### 2.1 Class Balance
 Training set is near-balanced — no oversampling required:
@@ -113,7 +113,7 @@ Key observations — employees with the following characteristics show **signifi
 
 ---
 
-## ⚙️ Feature Engineering
+## Feature Engineering
 
 | Step | Description |
 |------|-------------|
@@ -143,7 +143,7 @@ Key observations — employees with the following characteristics show **signifi
 
 ---
 
-## 🤖 Model Building
+## Model Building
 
 ### Algorithm
 **Logistic Regression** (via `statsmodels.discrete.discrete_model.Logit`) with statistical summaries (p-values, coefficients, VIF).
@@ -164,7 +164,7 @@ The optimal cutoff **(0.5)** is where **|Sensitivity − Specificity|** is minim
 
 ---
 
-## 📈 Model Evaluation – Validation Set
+## Model Evaluation – Validation Set
 
 ### Final Performance Metrics
 
@@ -187,23 +187,23 @@ The optimal cutoff **(0.5)** is where **|Sensitivity − Specificity|** is minim
 
 ## 💡 Key Insights
 
-1. **🏆 Job Level is the strongest retention predictor.** Senior (+2.51) and Mid-level (+0.97) employees are far more likely to stay; **entry-level staff show the highest churn risk**.
+1. **Job Level is the strongest retention predictor.** Senior (+2.51) and Mid-level (+0.97) employees are far more likely to stay; **entry-level staff show the highest churn risk**.
 
-2. **🏠 Remote Work significantly boosts retention.** Remote-enabled employees are much more likely to stay (+1.70); **flexibility is a key differentiator**.
+2. **Remote Work significantly boosts retention.** Remote-enabled employees are much more likely to stay (+1.70); **flexibility is a key differentiator**.
 
-3. **⚖️ Poor Work-Life Balance strongly drives attrition.** Poor (−1.26) and Fair (−1.09) balance scores are **top predictors of departure**.
+3. **Poor Work-Life Balance strongly drives attrition.** Poor (−1.26) and Fair (−1.09) balance scores are **top predictors of departure**.
 
-4. **💍 Single employees leave more often.** Greater geographic mobility and fewer local ties make single employees **higher flight risks** (−1.69).
+4. **Single employees leave more often.** Greater geographic mobility and fewer local ties make single employees **higher flight risks** (−1.69).
 
-5. **🏢 Company Reputation impacts retention.** Poor (−0.77) and Fair (−0.53) reputation perceptions **significantly increase departure likelihood**.
+5. **Company Reputation impacts retention.** Poor (−0.77) and Fair (−0.53) reputation perceptions **significantly increase departure likelihood**.
 
-6. **📉 Low Performance Ratings correlate with attrition.** Low (−0.60) and Below-Average (−0.31) rated employees are **more likely to leave**.
+6. **Low Performance Ratings correlate with attrition.** Low (−0.60) and Below-Average (−0.31) rated employees are **more likely to leave**.
 
-7. **😊 Job Satisfaction extremes both predict departure.** Low satisfaction (−0.50) and, surprisingly, **Very High satisfaction (−0.48) are both departure signals** — possibly indicating top performers are being poached.
+7. **Job Satisfaction extremes both predict departure.** Low satisfaction (−0.50) and, surprisingly, **Very High satisfaction (−0.48) are both departure signals** — possibly indicating top performers are being poached.
 
 ---
 
-## ✅ Recommendations
+## Recommendations
 
 | # | Recommendation | Expected Impact |
 |---|----------------|-----------------|
@@ -217,7 +217,7 @@ The optimal cutoff **(0.5)** is where **|Sensitivity − Specificity|** is minim
 
 ---
 
-## 🧪 Methodology Summary
+## Methodology Summary
 
 ```
 Raw Data (74,610 rows)
@@ -246,7 +246,7 @@ Validation Evaluation ──► Accuracy 73.64% · AUC 0.8239 · Confusion Matri
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Library | Version | Usage |
 |---------|---------|-------|
@@ -259,7 +259,7 @@ Validation Evaluation ──► Accuracy 73.64% · AUC 0.8239 · Confusion Matri
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ```bash
 # Clone the repository
@@ -274,12 +274,6 @@ jupyter notebook Predicting_Employee_Retention_Mohammed Qalandar Shah Quazi_Ramy
 ```
 
 > **Note:** The dataset file `Employee_data.csv` must be in the same directory as the notebook.
-
----
-
-## 📄 License
-
-This project was created for academic purposes as part of a Machine Learning assignment.
 
 ---
 
